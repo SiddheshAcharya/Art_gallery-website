@@ -1,0 +1,78 @@
+:root {
+    --accent: #D5966C;
+    --heading:black;
+    --body-text: #444444;
+    --background:  #dfcfb7  ;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 3.75rem;
+    line-height: 3.4375rem;
+    font-family: "playfair";
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5dc; /* Beige background */
+}
+
+header {
+    background: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-family: "playfair";
+}
+.arist-grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    line-gap-override: 1;
+}
+.artists-section {
+    padding: 20px;
+}
+.artist-font{
+    font-family: "playfair";
+    color: black;
+    font-size: 25px;
+}
+.artist {
+    background: whitesmoke;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0; /* Margin for spacing between artists */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.artist-photo {
+    width: 15%;
+    height: auto;
+    border-radius: 15px;
+    border-color: black;
+    border-width: 5px;
+}
+
+.artwork-gallery {
+    display: flex;
+    justify-content: space-between; /* Space between artwork images */
+    margin-top: 10px;
+}
+
+.artwork {
+    width: 48%; /* Two images per row */
+    height: 600px; /* Fixed height */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 5px;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}

@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5dc; /* Beige background */
+}
+
+header {
+    background: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.contact-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 75px;
+}
+.social-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 75px;
+}
+.contact{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 20%;
+    max-width: fit-content;
+}
+.contact-info {
+    display: flex;
+    justify-content: space-between; /* Space between the two sections */
+    align-items: flex-start; /* Align items to the top */
+    margin: 20px; /* Optional: Add some margin around the section */
+}
+
+.contact-grid, .social-container {
+    width: 48%; /* Adjust the width as necessary */
+}
+
+.contact-item, .social-grid {
+    text-align: left; /* Align text to the left */
+}
+
+
+
+.icon {
+    width: 24px; /* Icon size */
+    height: 24px; /* Icon size */
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.social-media {
+    margin-top: 100px;
+
+        
+}
+
+.social-icon {
+    width: 30px; /* Social icon size */
+    height: 30px; /* Social icon size */
+    margin-right: 50px; /* Space between social icons */
+    text-align: left;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
